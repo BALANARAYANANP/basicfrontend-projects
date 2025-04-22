@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* styles.css */
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/4065876/pexels-photo-4065876.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.class {
+    width: 17rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border:none;
+    outline:none;
+
+    background: linear-gradient(135deg, #f9f9f9, #e0eafc);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .class h1{
+    margin-top: 1.5rem;
+  }
+  /* Form Class Styling */
+  .form{
+    display: flex;
+    flex-direction: column;
+     margin: 0 30px 0 30px;
+      line-height: 2rem;
+      margin-top:1rem;
+  }
+  #user{
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+    outline: none;
+    border: 1px solid;
+  }
+  
+  /* Button Styling */
+  .button{
+    margin-top: 1rem; 
+    border-radius: 2rem; 
+    width: 7rem; 
+    cursor: pointer;
+    margin-left: 24%;
+    padding: 0.2rem;
+     background-color: blue; 
+     color: white;
+      border: none; 
+      height: 2rem;
+  }
+  .account{
+    margin: 0;
+     text-align: center; 
+     text-decoration: none;
+  }
+
+  .pwd{
+    margin: 0; 
+    text-align: center;
+    margin-top: -0.5rem; 
+    text-decoration: none;
+  }
+
+
+
+  #user:focus{ 
+    border: 1.6px solid blue;
+    border-radius: 0.3rem;
+  }
+  
+  #anchor{
+    font-size: 0.7rem;
+  }
+
+  #anchor2{
+    font-size: 0.7rem;
+    margin-top: -1rem;
+  }
